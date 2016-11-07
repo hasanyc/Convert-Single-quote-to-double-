@@ -1,0 +1,4 @@
+import json
+asd = {'propertyId': '3565', 'numberOfChildren': 0, 'startDate': '2016-11-10', 'sourceInfo': {'crsId': '8', 'referenceId': '857808947', 'promoCode': None, 'sourceId': '1001', 'subSource': 'Booking.com'}, 'roomRates': [{'rateAmount': 375.0, 'crsRatePlanId': '8525638', 'roomClassId': '19369', 'ratePlanId': '580', 'effectiveOn': '2016-11-10', 'expiresOn': '2016-11-15', 'currency': '15'}], 'notes': [{'subject': 'Smoking Preference', 'detail': 'RoomClass King Room: Non-Smoking'}], 'payment': None, 'guests': [{'lastName': 'NAME', 'firstName': 'MODIFIED'}], 'numberOfAdults': 1, 'chargeSummary': {'totalAmount': 375.0, 'totalTaxAmount': 0.0, 'currency': '15'}, 'endDate': '2016-11-15'}
+final = json.dumps(asd, ensure_ascii=False)
+print(final)
